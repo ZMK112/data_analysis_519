@@ -23,7 +23,7 @@ def get_field(data,field):
 
 def security_similarity():
     security_list = get_field(data,'securityId')
-
+    invAcctId_list = get_field(data,'invAcctId')
 
 
 
