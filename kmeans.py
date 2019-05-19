@@ -93,5 +93,5 @@ if __name__ == "__main__":
     # data_to_csv(const.FILE, const.CSV_PATH ) '''完成文件数据的特殊转换，具体生成方式见函数注释'''
     # shoot_analysis(10,const.TIME_LIMIT)      '''打版客户的分析，参数10：订单量或废单量大于10笔'''
     # long_analysis('ordTime',const.START_TIME,const.END_TIME,const.RATE) '''ordTime：订单时间作用字段；RATE：特定时间内订单占比 '''
-    # data = kmeans_data(const.CSV_PATH)
+    data = kmeans_data(const.CSV_PATH)
     kmeans(data)

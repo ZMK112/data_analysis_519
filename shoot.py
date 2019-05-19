@@ -4,9 +4,6 @@ from constant import  const
 import  data_process as dp
 import time,datetime
 import matplotlib.pyplot as plt
-from bokeh.io import output_notebook
-from bokeh.plotting import figure,show
-from bokeh.palettes import *
 from mpl_toolkits.mplot3d import Axes3D
 
 
